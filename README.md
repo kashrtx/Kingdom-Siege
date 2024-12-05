@@ -2,7 +2,7 @@
 
 <p align="center"><img src=https://github.com/user-attachments/assets/efb1bac2-949b-43a2-a24c-f14ee75b1652></p>
 
-Welcome to **Kingdom Siege**, a dynamic and thrilling tower defense game where strategy meets action!
+### Welcome to **Kingdom Siege**, a dynamic and thrilling tower defense game where strategy meets action!
 
 ## 🚀 Features
 
