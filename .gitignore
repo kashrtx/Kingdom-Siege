@@ -1,3 +1,5 @@
 Library/ArtifactDB
 Library/
-
+*.log
+Logs/
+Temp/
