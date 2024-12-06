@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 26
-  productGUID: 00000000000000000000000000000000
+  productGUID: 78b45dc7bde05544190c350b51b99f6f
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -12,8 +12,8 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 0
-  companyName: DefaultCompany
-  productName: Tower Defense
+  companyName: Quintessence Studios
+  productName: Kingdom Siege
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -157,6 +157,7 @@ PlayerSettings:
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
     Android: com.tfbgames.towerdefense
+    Standalone: com.Quintessence-Studios.Kingdom-Siege
     iPhone: com.tfbgames.towerdefense
   buildNumber:
     Standalone: 0
@@ -282,10 +283,10 @@ PlayerSettings:
   - m_BuildTarget: 
     m_Icons:
     - serializedVersion: 2
-      m_Icon: {fileID: 2800000, guid: da55ea351339347598f357c9e0490d9b, type: 3}
+      m_Icon: {fileID: 2800000, guid: 7cfba6bb0cecaa14ab060486c00006f7, type: 3}
       m_Width: 128
       m_Height: 128
-      m_Kind: 34750
+      m_Kind: 0
   m_BuildTargetPlatformIcons: []
   m_BuildTargetBatching: []
   m_BuildTargetShaderSettings: []
@@ -666,7 +667,8 @@ PlayerSettings:
   metroDefaultTileSize: 1
   metroTileForegroundText: 2
   metroTileBackgroundColor: {r: 0.13333334, g: 0.17254902, b: 0.21568628, a: 0}
-  metroSplashScreenBackgroundColor: {r: 0.12941177, g: 0.17254902, b: 0.21568628, a: 1}
+  metroSplashScreenBackgroundColor: {r: 0.12941177, g: 0.17254902, b: 0.21568628,
+    a: 1}
   metroSplashScreenUseBackgroundColor: 0
   platformCapabilities: {}
   metroTargetDeviceFamilies: {}
@@ -725,7 +727,7 @@ PlayerSettings:
   cloudProjectId: f0bffaa2-3c2d-4271-9fbc-adf997d5fef2
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: 
+  projectName: Tower Defense
   organizationId: kaushalbhingaradia
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 1
