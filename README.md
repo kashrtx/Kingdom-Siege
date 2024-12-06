@@ -1,6 +1,7 @@
 # <p align="center">👑 Kingdom Siege 🏰</p>
 
-<p align="center"><img src=https://github.com/user-attachments/assets/efb1bac2-949b-43a2-a24c-f14ee75b1652></p>
+<p align="center"><img src=https://github.com/user-attachments/assets/edaca572-030e-4de1-b0f8-5a322ba1e816></p>
+
 
 ### Welcome to **Kingdom Siege**, a dynamic and thrilling tower defense game where strategy meets action!
 
