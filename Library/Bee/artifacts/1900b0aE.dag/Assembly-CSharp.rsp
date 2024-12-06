@@ -353,6 +353,8 @@
 -analyzer:"S:/unity/unity/2022.3.9f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"S:/unity/unity/2022.3.9f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Scripts/Change Scenes.cs"
+"Assets/Scripts/CharacterDialogue.cs"
+"Assets/Scripts/DialogueManager.cs"
 "Assets/Scripts/pause_game.cs"
 "Assets/Scripts/Quit to Desktop.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
