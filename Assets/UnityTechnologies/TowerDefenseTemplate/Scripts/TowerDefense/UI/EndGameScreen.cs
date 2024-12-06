@@ -186,41 +186,20 @@ namespace TowerDefense.UI
 		/// </summary>
 		protected void Victory()
 		{
-			OpenEndGameScreen(levelCompleteText);
-			if ((victorySound != null) && (audioSource != null))
-			{
-				audioSource.PlayOneShot(victorySound);
-			}
-			background.color = winBackgroundColor;
-
-			//first check if there are any more levels after this one
-			if (nextLevelButton == null || !GameManager.instanceExists)
-			{
-				return;
-			}
-			GameManager gm = GameManager.instance;
-			LevelItem item = gm.GetLevelForCurrentScene();
-			LevelList list = gm.levelList;
-			int levelCount = list.Count;
-			int index = -1;
-			for (int i = 0; i < levelCount; i++)
-			{
-				if (item == list[i])
-				{
-					index = i;
-					break;
-				}
-			}
-			//if the level does not exist or this is the last level
-			//hide the next level button
-			if (index < 0 || index == levelCount - 1)
-			{
-				nextLevelButton.enabled = false;
-				nextLevelButton.gameObject.SetActive(false);
-				return;
-			}
-			nextLevelButton.enabled = true;
-			nextLevelButton.gameObject.SetActive(true);
+			// Open the end game screen with victory text
+			//OpenEndGameScreen(levelCompleteText);
+			
+			// Play victory sound, if available
+			//if ((victorySound != null) && (audioSource != null))
+			//{
+				//audioSource.PlayOneShot(victorySound);
+			//}
+			
+			// Set the background color for a win
+			//background.color = winBackgroundColor;
+			
+			// Immediately load the "You Win" scene
+			SceneManager.LoadScene("You Win"); 
 		}
 
 		/// <summary>

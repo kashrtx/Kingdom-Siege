@@ -4,6 +4,7 @@ using TowerDefense.UI.HUD;
 using UnityEngine;
 using UnityEngine.UI;
 using GameUIState = TowerDefense.UI.HUD.GameUI.State;
+using UnityEngine.SceneManagement;
 
 namespace TowerDefense.UI
 {
@@ -107,11 +108,12 @@ namespace TowerDefense.UI
 		/// </summary>
 		public void LevelSelectPressed()
 		{
-			bool open = m_State == State.Open;
-			restartButton.interactable = !open;
-			topPanel.color = open ? topPanelDisabledColor : Color.white;
-			levelSelectConfirmButton.gameObject.SetActive(open);
-			m_State = open ? State.LevelSelectPressed : State.Open;
+			SceneManager.LoadScene("Main Menu"); // Change scene to Main Menu
+			//bool open = m_State == State.Open;
+			//restartButton.interactable = !open;
+			//topPanel.color = open ? topPanelDisabledColor : Color.white;
+			//levelSelectConfirmButton.gameObject.SetActive(open);
+			//m_State = open ? State.LevelSelectPressed : State.Open;
 		}
 
 		/// <summary>
