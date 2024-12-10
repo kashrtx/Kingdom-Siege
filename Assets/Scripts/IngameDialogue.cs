@@ -66,6 +66,12 @@ public class IngameDialogue : MonoBehaviour
         // Reset canProceed for the next line
         dialogueManager.canProceed = false;
 
+        // 4th dialogue
+        dialogueManager.StartDialogue("King Ryker Goldenblade", "Afterwards there will be Demons which are stronger and Slimes which are tanky. Spend your gold wisely!", King);
+        yield return new WaitUntil(() => !dialogueManager.isTyping);
+        yield return new WaitUntil(() => dialogueManager.canProceed);
+        dialogueManager.canProceed = false;
+
        
 
 
@@ -77,7 +83,8 @@ public class IngameDialogue : MonoBehaviour
     }
 
     public void OnSkipButtonClicked()
-    {
+    {   
+        StopAllCoroutines();
         dialogueManager.CloseDialogue();
         dialogueBackground.SetActive(false);
         gameUI.SetActive(true);
