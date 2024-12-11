@@ -3,8 +3,9 @@
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -12,6 +13,6 @@ MonoBehaviour:
   m_Name: Level_1_TowerLibrary
   m_EditorClassIdentifier: 
   configurations:
-  - {fileID: 114126723238285906, guid: 7c0dba931e033498aa3fcfdf50adb263, type: 2}
-  - {fileID: 114941124655423822, guid: 0b6a68f73243844f2a8484744e5309de, type: 2}
-  - {fileID: 114328276777919300, guid: 1e8fc0d9d18c8408baa941efc8b49d4b, type: 2}
+  - {fileID: 114126723238285906, guid: 3bf270a3f13a8fe4285eb33b1365fb3d, type: 3}
+  - {fileID: 114249057418921680, guid: 52de3c6936972f740ba1edaf071a3663, type: 3}
+  - {fileID: 114328276777919300, guid: 42b880b5e534c6e4ea8c7fa0267168cd, type: 3}

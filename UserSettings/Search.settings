@@ -8,9 +8,9 @@ onBoardingDoNotAskAgain = true
 showPackageIndexes = false
 showStatusBar = false
 scopes = {
-	"last_search.3BE40471" = "Level_1_Tower"
+	"last_search.3BE40471" = "Enemies"
 	"OpenInspectorPreview.3BE40471" = "0"
-	"currentGroup.3BE40471" = "asset"
+	"currentGroup.3BE40471" = "all"
 }
 providers = {
 	packages = {
