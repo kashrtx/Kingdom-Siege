@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24e2352be0954e359a850a9d99215c6e, type: 3}
   m_Name: ArcherTower3
   m_EditorClassIdentifier: 
-  description: Tier 3  - Arrows at high FPS with low DPS
-  upgradeDescription: + FPS and range
+  description: LVL 3  - Arrows at highest FPS with medium DPS
+  upgradeDescription: + FPS, range, DPS
   cost: 12
   sell: 8
   maxHealth: 100

@@ -28878,7 +28878,7 @@ Transform:
   m_GameObject: {fileID: 1430798241748466}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.1538, z: 1.1192}
+  m_LocalPosition: {x: 0.01, y: 0.77, z: -0.0206}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -29084,7 +29084,7 @@ Transform:
   m_GameObject: {fileID: 1634511114570772}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.15200001, z: 1.186}
+  m_LocalPosition: {x: 0.004, y: 0.764, z: 0.6014}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -33869,7 +33869,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 243152050609072968, guid: c40bed98f23a748f89472abe9c1a6871,
     type: 2}
-  m_audioClip: {fileID: 8300000, guid: d440c9f7407a04474bf738520785306b, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 4c8d25a8e49802f4d97077d35bef84ab, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -43656,7 +43656,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   description: Offensive
-  projectile: {fileID: 1977158881363050, guid: b478dc57751e64614acb9e2707cdd30c, type: 3}
+  projectile: {fileID: 1977158881363050, guid: eba012dbf60c57543821f37d3d3ad32c, type: 3}
   projectilePoints:
   - {fileID: 4457715277627928}
   epicenter: {fileID: 4795219791600268}
@@ -43664,7 +43664,7 @@ MonoBehaviour:
   fireRate: 4
   randomAudioSource: {fileID: 114747113932365056}
   towerTargetter: {fileID: 114079108543431824}
-  radiusEffectColor: {r: 0, g: 1, b: 1, a: 0.09803922}
+  radiusEffectColor: {r: 0.04725027, g: 1, b: 0, a: 0.09803922}
 --- !u!1 &1860257489135870
 GameObject:
   m_ObjectHideFlags: 0
@@ -43713,7 +43713,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1860257489135870}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 3
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1

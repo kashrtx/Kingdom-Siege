@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24e2352be0954e359a850a9d99215c6e, type: 3}
   m_Name: MageTower3
   m_EditorClassIdentifier: 
-  description: LVL 3  - Mages slow nearby enemies down
-  upgradeDescription: + Slow Speed
+  description: LVL 3  - Mages greatly slow nearby enemies down
+  upgradeDescription: + Slow enemy speed
   cost: 12
   sell: 9
   maxHealth: 100

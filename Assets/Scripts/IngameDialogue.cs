@@ -51,6 +51,15 @@ public class IngameDialogue : MonoBehaviour
         // Reset canProceed for the next line
         dialogueManager.canProceed = false;
 
+         // Narrator dialogue
+        dialogueManager.StartDialogue("Narrator", "Archer Towers fire arrows that get faster and hit harder as you upgrade to level 3. Mage Towers? They slow enemies down more and more with each upgrade, perfect for crowd control. And Crossbow Towers? They're the snipers of your defense, gaining extra range, fire rate, and damage with each level.", narrator);
+        // Wait for the first dialogue to finish typing
+        yield return new WaitUntil(() => !dialogueManager.isTyping);
+        // Wait for user input to proceed
+        yield return new WaitUntil(() => dialogueManager.canProceed);
+        // Reset canProceed for the next line
+        dialogueManager.canProceed = false;
+
          // Second dialogue
         dialogueManager.StartDialogue("King Ryker Goldenblade", "Shinji! Time is short! Place your towers along these paths. The Goblins come first—wily little creatures that run fast but don't let the gate take too many hits. Hurry!", King);
         yield return new WaitUntil(() => !dialogueManager.isTyping);

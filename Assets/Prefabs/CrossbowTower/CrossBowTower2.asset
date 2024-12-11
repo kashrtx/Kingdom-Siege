@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24e2352be0954e359a850a9d99215c6e, type: 3}
   m_Name: CrossBowTower2
   m_EditorClassIdentifier: 
-  description: LVL 2 - Long range, high DPS, slow FPS
-  upgradeDescription: + range and DPS
+  description: LVL 2 - Longer range, higher DPS, slow FPS
+  upgradeDescription: + range, FPS, DPS
   cost: 15
   sell: 10
   maxHealth: 100
